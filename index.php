@@ -7,12 +7,12 @@
 </head>
 <body>
 <header>Überschrift</header>
-<nav>navigation</nav>
+<nav>Navigation</nav>
 <main>
 	<h1>Inhalt</h1>
 	<aside>Status <span id="status"></span></aside>
 	<br>
-	<img src="http://lorempixel.com/800/400/" alt="">
+	<img src="http://lorempixel.com/800/400/" alt="HIER SOLLTE MAN EIN BILD SEHEN">
 </main>
 <footer>Footer</footer>
 <script src="./app.js"></script>
