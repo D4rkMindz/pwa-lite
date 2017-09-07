@@ -1,0 +1,30 @@
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	grid: "head head" 4em "nav main" 1fr "nav foot" 4em /8em 1fr;
+}
+
+header {
+	grid-row: 1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background: #ffff00;
+}
+
+nav {
+	grid-area: nav;
+	background: #00ff00;
+}
+
+main {
+	background: #0000ff;
+}
+
+main > img {
+	max-width: inherit;
+}
+
+footer {
+	background: #8000ff;
+}
