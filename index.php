@@ -6,13 +6,13 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>Überschrift</header>
+<header>Header</header>
 <nav>Navigation</nav>
 <main>
-	<h1>Inhalt</h1>
+	<h1>Content</h1>
 	<aside>Status <span id="status"></span></aside>
 	<br>
-	<img src="http://lorempixel.com/800/400/" alt="HIER SOLLTE MAN EIN BILD SEHEN">
+	<img src="http://lorempixel.com/800/400/" alt="Here should be a picture">
 </main>
 <footer>Footer</footer>
 <script src="./app.js"></script>
